@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Enter Data</title>
+    </head>
+    <body>
+        <h1> What are your X and Y axes</h1>
+        <form method='post' action='/dataEntry'>
+          X-axis<br>
+          <input type="text" name="X-axis"><br>
+          Y-axis<br>
+          <input type="text" name="Y-axis"><br>
+          <input type='submit'>
+        </form>
+        
+        {% block content %}
+        {% endblock %}
+    
+    </body>
+</html>
